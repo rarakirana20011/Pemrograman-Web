@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+#wrap{
+    width:780%;
+    margin:0 auto; 
+    overflow:hidden;
+}
+
+#header{
+    width:100%;
+    height:70px;
+    padding:5px;
+    background: pink;
+    margin:20px 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+#menu-utama{
+    margin-top: 3px;
+    list-style: none;
+}
+
+#menu-utama li{
+    float: right;
+    padding:5px 30px;
+    border-right: 1px solid #555;
+}
+
+#menu-utama h1{
+    float: center;
+    padding:8px 40px;
+}
+
+#menu-utama li{
+    color:papayawhip;
+    text-decoration: none;
+}
+
+#deskripsi-id .left{
+    width:200px;
+    height:600px;
+    background-color: palevioletred;
+    position:absolute;
+}
+
+.left p{
+    width:150px;
+    height: 280px;
+    background-color: white;
+    position:absolute;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#konten-paket .center{
+    height:180px;
+    background-color: white;
+    margin:0 300px 0 200px;
+}
+
+.center{
+    background:white;
+    padding:10px;
+    margin-bottom:20px;
+    overflow:hidden;
+    }
+.center img{
+    float:left;
+    margin-right:10px;
+    width:200px;
+    height:165px
+    }
+.center b{
+    color:brown;
+    background:pink;
+    padding:3px;
+    font-size:12px;
+    font-weight:bold;
+    margin-right:10px;
+    }
+.center p{
+    margin:10px 0;
+    }
+.center a{
+    display:block;
+    text-align:right;
+    color:#636363;
+    }
+        
+#form .right{
+    width:300px;
+    height:600px;
+    background-color: palevioletred;
+    position:absolute;
+    right:0;
+    top:122px;
+    margin-left: 30px;
+    pad: 5px;
+}
+
+.right h2{
+    margin : 0 40px;
+    padding : 15px;
+    color : black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.right .border{
+    width: 70px;
+    height: 3px;
+    background: white;
+    margin: 1px auto;
+}
+.right input{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+.right input,
+.right textarea{
+    position: inherit;
+    width: 80%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.right textarea{
+    margin-bottom: 20px;
+}
+
+.footer{
+    height:100px;
+    border:1px solid white;
+    background-color: pink;
+    line-height:100px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+.pricing-tables-s-widodo-com {
+position: relative;
+float: left;
+width: 33%;
+border: 1px solid #eee;
+}
+.pricing-tables-s-widodo-com .title {
+float: left;
+width: 100%;
+height: 57px;
+padding: 13px 0 10px 0;
+background-color: #454545;
+text-align: center;
+font-size: 23px;
+color: #fff;
+border-top: 3px solid #272727;
+border-bottom: 1px solid #818181;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+.pricing-tables-s-widodo-com .price {
+float: left;
+width: 100%;
+padding: 30px 0 30px 0;
+background-color: #636363;
+text-align: center;
+font-size: 40px;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+.pricing-tables-s-widodo-com .price i {
+font-size: 14px;
+color: #ccc;
+display: block;
+font-weight: normal;
+font-style: normal;
+margin-top: 5px;
+}
+.pricing-tables-s-widodo-com .cont-list {
+float: left;
+width: 100%;
+padding: 15px 0;
+border-top: 3px solid #fff;
+border-bottom: 3px solid #fff;
+background-color: #f9f9f9;
+text-align: center;
+color: #727272;
+}
+.pricing-tables-s-widodo-com .cont-list ul {
+margin: 0;
+padding: 0;
+}
+.pricing-tables-s-widodo-com .cont-list li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+line-height: 30px;
+border-bottom: 1px solid #fff;
+}
+.pricing-tables-s-widodo-com .cont-list li.last {
+border: none;
+}
+.pricing-tables-s-widodo-com .ordernow {
+float: left;
+width: 100%;
+padding: 28px 0;
+background-color: #eee;
+text-align: center;
+color: #fff;
+}
+ 
+.pricing-tables-helight-s-widodo-com{
+position: relative;
+float: left;
+width: 33%;
+z-index: 3;
+-webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.pricing-tables-helight-s-widodo-com .title {
+float: left;
+width: 100%;
+height: 73px;
+padding: 20px 0 0 0;
+margin-top: -10px;
+background-color: #0aa4df;
+text-align: center;
+font-size: 23px;
+color: #fff;
+border-top: 3px solid #0893c9;
+border-bottom: 1px solid #1cb7f3;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+.pricing-tables-helight-s-widodo-com .price {
+float: left;
+width: 100%;
+padding: 30px 0 30px 0;
+background-color: #7ab700;
+text-align: center;
+font-size: 45px;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+.pricing-tables-helight-s-widodo-com .price i {
+font-size: 14px;
+color: #eee;
+display: block;
+font-weight: normal;
+font-style: normal;
+margin-top: 5px;
+}
+.pricing-tables-helight-s-widodo-com .cont-list {
+float: left;
+width: 100%;
+padding: 15px 0;
+border-top: 3px solid #fff;
+border-bottom: 3px solid #fff;
+background-color: #f9f9f9;
+text-align: center;
+color: #727272;
+}
+.pricing-tables-helight-s-widodo-com .cont-list ul {
+margin: 0;
+padding: 0;
+}
+.pricing-tables-helight-s-widodo-com .cont-list li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+line-height: 30px;
+border-bottom: 1px solid #fff;
+}
+.pricing-tables-helight-s-widodo-com .cont-list li.last {
+border: none;
+}
+.pricing-tables-helight-s-widodo-com .ordernow {
+float: left;
+width: 100%;
+padding: 30px 0 35px 0;
+background-color: #eee;
+text-align: center;
+color: #fff;
+}
+
+
+#booking .ok{
+    width:300px;
+    height:480px;
+    background-color: palevioletred;
+    position:absolute;
+    right:0;
+    top:122px;
+    margin-left: 30px;
+    margin-right: 500px;
+    pad: 5px;
+}
+
+.ok h2{
+    margin : 0 40px;
+    padding : 15px;
+    color : black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.ok .acc{
+    width: 70px;
+    height: 3px;
+    background: white;
+    margin: 1px auto;
+}
+.ok input{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+.ok input,
+.ok textarea{
+    position: inherit;
+    width: 80%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.ok textarea{
+    margin-bottom: 20px;
+}
+
+
+.foot{
+    height:100px;
+    border:1px solid white;
+    background-color: pink;
+    line-height:100px;
+    padding: 10px;
+    margin-top: 600px;
+}
+
+#y .c{
+    width:200px;
+    height:550px;
+    background-color: palevioletred;
+    position:absolute;
+    margin-left: 200px;
+}
+
+.c p{
+    width:150px;
+    height: 280px;
+    background-color: white;
+    position:absolute;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+
+#toko .rar{
+    width:500px;
+    height:450px;
+    background-color:white;
+    position:absolute;
+    right:0;
+    top:122px;
+    margin-left: 30px;
+    pad: 5px;
+    margin-right: 400px;
+}
+
+.rar h2{
+    margin : 0 40px;
+    padding : 15px;
+    color : black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.rar .aw{
+    width: 70px;
+    height: 3px;
+    background: palevioletred;
+    margin: 1px auto;
+}
+.rar input{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+.rar input,
+.rar textarea{
+    position: inherit;
+    width: 80%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.rar textarea{
+    margin-bottom: 20px;
+}
+
+#n .z{
+    width:200px;
+    height:550px;
+    background-color: palevioletred;
+    position:absolute;
+    margin-left: 1000px;
+}
+
+.z p{
+    width:150px;
+    height: 280px;
+    background-color: white;
+    position:absolute;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#formulir .center{
+    width:300px;
+    height:400px;
+    background-color: white;
+    position:absolute;
+    right:0;
+    top:122px;
+    margin-left: 30px;
+    margin-right: 500px;
+    pad: 5px;
+}
+
+.center h2{
+    margin : 0 40px;
+    padding : 15px;
+    color : black;
+    text-transform: capital each word;
+    text-align: center;
+}
+.center .acc{
+    width: 70px;
+    height: 3px;
+    background: white;
+    margin: 1px auto;
+}
+.center input{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-left: 29px;
+}
+.center input,
+.center textarea{
+    position: inherit;
+    width: 80%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.center textarea{
+    margin-bottom: 20px;
+}
