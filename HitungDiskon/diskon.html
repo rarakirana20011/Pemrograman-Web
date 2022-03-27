@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HITUNG DISKONMU</title>
+    <!-- JUDUL -->
+    <style type="text/css">
+        body{
+            width: 99%;
+            height: 95%;
+            background-image: url(img/bg.PNG);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        /* Membuat border / box */
+        main{
+            max-width: 100%;
+            /* Mengatur Maxsimal Ukuran*/
+            margin-left: 24.5%;
+            margin-top: 15%;
+            /* Mengatur margin*/
+            border: 4px solid #af537c;
+            /* Ukuran border 4px solid warna abu"*/
+            border-radius: 10px 10px;
+            /* Ukuran border 4px solid warna abu"*/
+            width: 50%;
+            height: 60%;
+            /* Mengatur Ukuran */
+            text-align: center;
+            /* text di pindahkan ke tengah */
+            position: fixed;
+        } /*mengatur style border */
+        h1{
+            color: #5f253f;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } /*mengatur tulisan di border */
+        input {
+            flex: 1 1 40%;
+            margin: 5px;
+            appearance: none;
+            background: none;
+            background-color: white;
+            border-radius: 8px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            max-width: 100%;
+        }
+        p {
+            color: #833458;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 5px;
+            margin-bottom: -15px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1> Hitung Diskon </h1>
+        <!-- Nama Judul -->
+        <form name="Diskon">
+        <!-- Membuat form yang bernama Diskon -->
+            <p>Harga (Rp)</p><br>
+            <input type="text" name="harga">
+            <!-- Membuat input yang bernama harga -->
+            <p>Persen (%) </p><br>
+            <input type="text" name="persen">
+            <!-- Membuat input yang bernama persen -->
+            <br>
+            <input type="button" name="cek" value="CEK" onclick="Cek_Diskon();">
+            <!-- Membuat input tombol -->
+            <div>
+            <p>Hasil Diskon</p>
+            <br>
+            <input type="text" name="hasil">
+            <!-- Membuat colom text bernama hasil -->
+            </div>
+        </form>
+        <!-- Setelah Membuat tampilannya maka lanjut ke java script -->
+ 
+        <script type="text/javascript">
+            function Cek_Diskon() { 
+            // Membuat function bernama Cek_Diskon
+                var harga = document.Diskon.harga.value; 
+                // Mengambil nilai input bernama harga yang berada pada form bernama Diskon
+                var persen = document.Diskon.persen.value; 
+                // Mengambil nilai input bernama persen yang berada pada form bernama Diskon
+                harga = parseInt(harga); 
+                // Merubah data string menjadi integer
+                persen = parseInt(persen); 
+                // Merubah data string menjadi integer
+                var hasil = harga * (persen/100); 
+                // Penghitungan nya (Persen/100) lalu kali harga
+                hasil = harga - parseInt(hasil); 
+                // lalu hasil di kurangan harga
+                document.Diskon.hasil.value = hasil; 
+                // pindahkan nilai hasil ke input bernama hasil yang berada pada form Diskon
+            }
+        </script>
+    </main>
+</body>
+</html>
